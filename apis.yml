@@ -1,8 +1,26 @@
 aid: camfer
 name: Camfer
-description: Camfer is a company surfaced as a portfolio company of bloomberg-beta and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Camfer is a Y Combinator-backed startup (S24) building an AI mechanical
+  engineer — an AI-powered CAD tool that plugs into SolidWorks and lets engineers generate
+  parametric designs from natural language prompts and images. Its camfy text-to-CAD
+  model produces editable feature-tree geometry, automates repetitive modeling tasks,
+  answers questions about a model without manual feature-tree navigation, and gives
+  real-time design feedback. The product is a downloadable desktop application (currently
+  in invite-only beta), not a public API; the company is backed by Y Combinator, Next47,
+  Bloomberg Beta, Octave Fund, and the founders of Dropbox, Airtable, and Clari.
 url: https://raw.githubusercontent.com/api-evangelist/camfer/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: approval
+  trial: false
+  try_now: false
+  public: false
+  label: Requires approval
+  confidence: medium
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://camfer.dev/images/favicon/favicon-192x192.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,9 +29,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Computer-Aided Design
+- CAD
+- Mechanical Engineering
+- Artificial Intelligence
+- Generative Design
+- SolidWorks
+- Text-to-CAD
+- Desktop Application
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +47,26 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/camfer-domain-security.yml
 - type: Website
   url: http://camfer.dev/
+- type: Blog
+  url: https://camfer.dev/blog/
+- type: SignUp
+  url: https://camfer.dev/try/
+- type: PrivacyPolicy
+  url: https://camfer.dev/privacy
+- type: Support
+  url: https://discord.gg/Uzyc7Ejmga
+- type: GitHubOrganization
+  url: https://github.com/camferinc
+- type: LinkedIn
+  url: https://www.linkedin.com/company/camferinc/
+- type: Twitter
+  url: https://x.com/camfer_inc
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
