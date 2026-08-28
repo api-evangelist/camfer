@@ -9,6 +9,17 @@ description: Camfer is a Y Combinator-backed startup (S24) building an AI mechan
   in invite-only beta), not a public API; the company is backed by Y Combinator, Next47,
   Bloomberg Beta, Octave Fund, and the founders of Dropbox, Airtable, and Clari.
 url: https://raw.githubusercontent.com/api-evangelist/camfer/refs/heads/main/apis.yml
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: approval
